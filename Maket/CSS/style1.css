@@ -1,0 +1,463 @@
+*{
+	margin: 0;
+	padding: 0;
+	}
+
+body {
+	width: 100%;
+	background: linear-gradient(#e7e8e3, #e5e1e6, #e7e2e7, #e2e8e7) repeat;
+	font-family:  ArialRegular, sans-serif;
+	font-size: 14px;
+}
+
+.logo1 {
+	position: absolute;
+	width: 100%;
+	height: 72px;
+	background: linear-gradient(#2c3437 , #2e2f3b , #303037 , #2d3136) repeat;
+	color: #a5adb8;
+}
+
+header{
+	width: 980px;
+	margin: 0 auto;
+ }
+
+.logo {
+	width: 100%;
+	height: 72px;
+	background: linear-gradient(#2c3437 , #2e2f3b , #303037 , #2d3136) repeat;
+	color: #a5adb8;
+	position: relative;
+}
+
+h1 {float: left;
+	margin: 20px 0 0 0;
+	position: absolute;
+	font: "ArialBold";
+	font-size: 30px;
+}
+
+h1:first-letter {
+	color: #ae4b5d;
+
+}	
+
+h6 {
+	font: "ArialBold";
+	font-size: 12px;
+	float: left;
+	margin: 47px 0 0 0;
+	
+}	
+
+.logo input {
+	width: 198px;
+	height: 33px;
+    color: #a5adb8; 
+	border: 1px solid  #ae4b5d;
+	border-radius: 6px; 
+	padding-left: 10px; 
+	background:  #24272c;
+	margin: 20px 0 0 420px; 
+}
+
+.logo button {
+	width: 35px;
+	height: 35px;
+	border: none;
+	border-radius: 6px; 
+	padding: 3px 3px 3px 3px; 
+	background:  #ae4b5d;	
+	float: right;
+	margin: 20px 10px 0 0;  
+}
+
+.Wrapper {
+	width: 980px;
+	margin: 0 auto;
+	background: #ffffff;
+}
+
+								/*HEADER*/
+.header1 {
+	height: 245px;
+	background-image: url(C:/Users/Yana/Desktop/Maket/img/header-1.png);
+	position: relative;	
+}
+
+.header1 h2 {
+	float: left;
+	padding: 45px 0 0px 40px;
+	position: absolute;	
+}
+
+h2 {
+	color: #a5adb8;
+	font-size: 30px;
+}
+
+h2:first-letter {
+    color: #ae4b5d;
+}		
+
+h3 {
+	font: "ArialBold";
+	font-size: 18px;
+	color: #282d33;
+}
+
+.header1 h3 {
+	float: left;
+	padding: 80px 0 0px 40px;
+	position: absolute;	
+}
+
+.header1 h4 {
+	float: left;
+	padding: 110px 0 0px 40px;
+	position: absolute;	
+	color: #a5adb8;
+	font: "ArialBold";
+	font-size: 18px;
+}
+
+.header1 p {
+	float: left;
+	padding: 135px 0 0px 40px;
+	position: absolute;	
+	color: #a5adb8;
+	font: "Arial Regular";
+	font-size: 14px;
+}
+
+nav {
+	height: 36px;
+	background-color: #95161f;
+}
+
+nav li {
+	float: right;
+	display: inline-block;
+	margin: 11px 22px 11px 32px;
+}
+
+nav li a {
+	text-decoration: none;
+	color: #ffffff;
+	font: "ArialBold";
+	font-size: 16px;
+}
+
+.virt {
+	height: 25px;
+	background-color: #f3f3f3;
+	font-size: 11px;
+	font: ArialRegular;
+}
+
+.virt ul {
+	color: #6b6f74;
+	float: left;
+	margin-left: 25px;
+	margin-top: 7px;
+}
+ 
+.virt ul li {
+	display: block;float: left;
+}
+
+									/*MEIN*/
+main {
+	width: 980px;
+	margin: 0 auto;
+}
+
+.content {
+	margin-left: 260px;
+}
+
+.What {
+	margin-top: 20px;
+}
+
+.panel  li {
+	display: inline-block;
+	width: 192px;
+	right: 140px;
+	margin: 20px 26px 0 0;	
+}
+
+.panel img {box-shadow: -8px 0 10px -10px  #b2b2b2, 
+         	8px 0 10px -10px #b2b2b2,
+            0 15px 15px -10px #b2b2b2;
+}
+
+.lists h2 {
+	margin-top: 20px;
+}
+
+.lists div {
+	display: inline-block;
+	margin: 0 0 0 20px;
+}
+
+.lists11  {
+	float: left;
+}
+
+.lists13 {
+	float: right;
+	padding-right: 20px;
+}
+
+.lists13 ol {
+	margin: 0 0 0 20px;
+}
+
+.lists11 h4 {
+	margin-left: -20px;
+}
+
+.lists1, .lists2 {
+	margin-left: 20px;
+}
+
+.contact {
+	float: left;
+	width: 250px;
+}
+
+.contact1 {
+	width: 210px;
+	height: 410px;
+	border: 2px solid #dadde0;
+	margin: 0 0 0 25px;
+}
+
+.contact2 {
+	width: 185px;
+	height: 35px;
+	background-color: #e3e4e5;
+	border: 2px solid #fffcfc;
+	border-radius: 5px;
+}
+
+.contact3{
+	width: 185px;
+	height: 35px;
+	background-color: #e3e4e5;
+	border: 2px solid #a2a2a2;
+	border-radius: 5px;
+}
+
+.submit {
+	width: 180px;
+	height: 45px;
+	background-color: #a9212a;
+	border: 6px solid #ffffff;
+	margin: 17px 0 0 15px;
+}
+
+.contact_form li {
+	margin: 10px 0 0 12px;
+	list-style-type:none;
+}
+
+.placeholder {
+	color: #757575;
+}
+
+.Headline {
+	width: 205px;
+	margin: 25px 0 0 25px;
+	font-size: 12px;
+}
+
+.Headline1 {
+	margin-top: 15px;
+} 
+
+a {
+	color: #95161f;
+}
+
+.tableR {
+	margin-top: 30px;
+}
+
+table {
+	border-collapse: collapse;
+	width: 695px;
+	border-color: #ffffff;
+}	
+
+th, td {
+	padding: 10px;
+	border: 1px solid #d8dbde;
+	font-size: 12px;
+	color: #a5adb8;
+}
+
+th:first-child {
+	border-radius: 6px 0  0 0;
+	border-top-color: #f3f3f3;
+	border-left-color: #f3f3f3;
+}
+
+th:last-child {
+	border-radius: 0 6px 0 0;
+	border-top-color: #f3f3f3;
+	border-right-color: #f3f3f3;
+}
+
+tfoot td:first-child {
+	border-radius: 0  0 0 6px;
+	border-bottom-color: #f3f3f3;
+	border-left-color: #f3f3f3;
+}
+
+tfoot td:last-child {
+	border-radius: 0  0 6px 0;
+	border-bottom-color: #f3f3f3;
+	border-right-color: #f3f3f3;
+	}
+
+.text {
+	text-decoration-line: underline;
+	color: #d08b98;
+}
+
+.bord1 {
+	text-align: center;
+}
+
+thead {
+	background: #9c4757;
+}
+
+tbody, tfoot {
+	background: #282d33;
+}
+
+
+
+
+																	/*FOOTER*/
+footer {
+	width: 100%;
+	height: 240px;
+	background: linear-gradient(#2c3437 , #2e2f3b , #303037 , #2d3136) repeat;
+}
+
+.footer {
+	width: 960px; 
+	margin: 0 auto;
+	line-height: 1.5;
+}
+
+.end {
+	width: 100%;
+	height: 8px;
+	background-color: #ae4b5d;
+}
+.footer div {
+	display: inline-block;
+	width: 32%; 
+}
+
+h5 {
+	font: ArialRegular;
+	font-size: 18px;
+	padding-top: 40px;
+}
+
+.footer1 h5:first-letter{
+	color: #ae4b5d;
+}
+
+.text_footer {
+	color: #ae4b5d;
+}
+
+.footer ul {
+	font: "ArialRegular";
+	font-size: 12px;
+	}
+
+.footer1 ul {
+	list-style-image: url(C:/Users/Yana/Desktop/Maket/img/taim.jpg);
+	padding-left: 20px;
+	
+}
+.footer1 {
+	float: left;
+}
+
+.footer2 {
+	margin: 0 0 0 30px;
+}
+
+.footer3 {
+	float: right;
+	margin-right: -20px;
+}
+
+.footer2  li {
+	list-style-image: url(C:/Users/Yana/Desktop/Maket/img/marker.jpg);
+	margin-left: 15px;
+}
+
+footer h6 {
+	margin: 0 0 0 5px;
+}
+
+.footer3 ul {
+	list-style-type: none;
+}
+
+hr {
+	width: 270px;
+	height: 1px;
+	border: none;
+	background-color: #191c20;
+	margin: 10px 0 0 0;
+}
+
+.hr2 {
+	width: 270px;
+	height: 1px;
+	border: none;
+	background-color: #40474f;
+	margin: 0 0 10px 0;
+}
+
+.footer3 a {
+	color: #d08b98;
+} 
+
+
+
+																/*АДАПТИВ*/
+
+
+ @media (max-width: 480px) {
+
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
